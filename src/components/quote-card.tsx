@@ -24,7 +24,7 @@ export default function Quotecard() {
     fetchQuote();
   }, []);
   return (
-    <main className="flex justify-center items-center mt-3 flex-col gap-2">
+    <main className="flex justify-center items-center mt-3 flex-col gap-2 ">
       {quotes.map((quote: any) => (
         <div className="flex flex-col gap-2 " key={quote.text}>
           <Card className="w-96 h-96 border shadow">
