@@ -7,7 +7,7 @@ import {
   CommandItem,
   CommandList
 } from "./ui/command";
-import Facebook from "@/app/assets/Facebook.png";
+import Facebook from "@/app/assets/facebook.png";
 import Instgram from "@/app/assets/instergram.png";
 import X from "@/app/assets/x-removebg-preview.png";
 
