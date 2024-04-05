@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export default function Asideleft() {
   return (
-    <Card className="sticky top-0 flex max-h-[100vh] min-h-screen   flex-col justify-start gap-2 overflow-hidden rounded-l-none rounded-r-sm px-1 border-l-0 z-20">
+    <Card className="sticky top-0 hidden md:flex max-h-[100vh] min-h-screen   flex-col justify-start gap-2 overflow-hidden rounded-l-none rounded-r-sm px-1 border-l-0 z-20 ">
       <CardContent>
         <Command className="rounded-xl border shadow-md mt-2">
           <CommandInput placeholder="Author" />

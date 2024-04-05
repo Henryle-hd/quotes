@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Card, CardContent } from "./ui/card";
 
 export default function NavBar() {
   const [isActive, setIsActive] = useState(true);
