@@ -3,7 +3,7 @@ import Quotecard from "@/components/quote-card";
 
 export default function Home() {
   return (
-    <main className="mt-16">
+    <main>
       <Quotecard />
     </main>
   );
