@@ -1,1 +1,3 @@
-##Quotes
+# Quotes
+
+- stay motivated 
