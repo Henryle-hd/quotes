@@ -6,6 +6,7 @@ import Asideleft from "@/components/aside-left";
 import Asideright from "@/components/aside-right";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
+import SearchAuthor from "@/components/searchAuthor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className)}>
-        <NavBar />
-        {children}
+      <body className={cn(inter.className, "flex gap-2 justify-center")}>
+        <div className="">
+          <SearchAuthor />
+        </div>
+        <div className="">
+          <NavBar />
+          {children}
+        </div>
       </body>
     </html>
   );
