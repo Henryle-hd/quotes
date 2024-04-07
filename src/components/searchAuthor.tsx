@@ -7,13 +7,11 @@ import {
   CommandItem,
   CommandList
 } from "./ui/command";
-
-import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
 
 export default function SearchAuthor() {
   return (
-    <Command className="rounded border shadow-md h-auto sticky top-0 mt-1">
+    <Command className="rounded border shadow-md h-auto sticky top-0 mt-1 ">
       <CommandInput placeholder="search..." />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>

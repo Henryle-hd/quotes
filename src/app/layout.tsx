@@ -7,6 +7,7 @@ import Asideright from "@/components/aside-right";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
 import SearchAuthor from "@/components/searchAuthor";
+import Menu from "@/components/menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className, "flex gap-2 justify-center")}>
         <div className="">
-          <SearchAuthor />
+          <Menu />
+          <div className="hidden sm:block">
+            <SearchAuthor />
+          </div>
         </div>
         <div className="">
           <NavBar />
