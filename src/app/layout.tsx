@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={cn(inter.className, "flex gap-2 justify-center")}>
         <div className="">
           <Menu />
-          <div className="hidden sm:block">
+          <div className="hidden sm:block sticky top-0 ">
             <SearchAuthor />
           </div>
         </div>
