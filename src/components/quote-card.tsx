@@ -26,10 +26,10 @@ export default function Quotecard() {
   return (
     <main className="flex justify-center items-center mt-3 flex-col gap-2 ">
       {quotes.map((quote: any) => (
-        <div className="flex flex-col gap-2 " key={quote.text}>
-          <Card className="w-96 h-96 border shadow">
+        <div className="flex flex-col gap-2 w-96 sm:w-[50%]" key={quote.text}>
+          <Card className="w-full h-96 sm:h-[47vh] border shadow">
             <CardContent className="flex flex-col gap-10 justify-center items-center h-full w-full">
-              <p className="text-2xl font-bold px-4 text-center">
+              <p className="text-3xl font-bold px-4 text-center">
                 {quote.text}
               </p>
 
@@ -39,7 +39,7 @@ export default function Quotecard() {
               </CardFooter>
             </CardContent>
           </Card>
-          <Card className="w-96 h-11">
+          <Card className="w-full h-11">
             <CardContent className="grid grid-cols-4 gap-14 justify-center items-center h-12 w-full pt-[0.2rem]">
               {/* flex gap-4 py-1 justify-between items-center{" "} */}
               <div className="flex items-center gap-1 hover:text-[#ff5400]">
