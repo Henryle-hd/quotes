@@ -30,7 +30,7 @@ export default function RootLayout({
             <SearchAuthor />
           </div>
         </div>
-        <div className="">
+        <div className=" ">
           <NavBar />
           {children}
         </div>

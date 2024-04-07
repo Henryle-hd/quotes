@@ -26,7 +26,7 @@ export default function Quotecard() {
   return (
     <main className="flex justify-center items-center mt-3 flex-col gap-2 ">
       {quotes.map((quote: any) => (
-        <div className="flex flex-col gap-2 w-96 " key={quote.text}>
+        <div className="flex flex-col gap-2 w-80 sm:w-96 " key={quote.text}>
           <Card className="w-full h-96 sm:h-[47vh] border shadow">
             <CardContent className="flex flex-col gap-10 justify-center items-center h-full w-full">
               <p className="text-3xl font-bold px-4 text-center">

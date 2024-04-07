@@ -8,7 +8,7 @@ export default function NavBar() {
 
   return (
     <nav className="flex justify-center items-center top-0  sticky bg-background mt-1">
-      <div className="w-96 h-12 border border-l-0 border-r-0 flex justify-center items-center gap-5">
+      <div className="w-80 sm:w-96 h-12 border border-l-0 border-r-0 flex justify-center items-center gap-5">
         <Link
           href={"/"}
           className={isActive ? "text-[#ff5400] underline" : ""}
