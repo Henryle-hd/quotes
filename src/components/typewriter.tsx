@@ -12,13 +12,35 @@ const TypeWriterTitle = (props: Props) => {
       }}
       onInit={(typewriter) => {
         typewriter
-          .typeString('print("Kalibu Jordan here!")')
+          .typeString("Python Developer")
           .pauseFor(1000)
           .deleteAll();
         typewriter
-          .typeString(":)")
+          .typeString("Rust")
+          .pauseFor(1000)
+          .deleteAll();
+        typewriter
+          .typeString("Javascript ")
+          .pauseFor(1000)
+          .deleteAll();
+        typewriter
+          .typeString("Golang")
           .pauseFor(1000)
           .deleteAll()
+        typewriter
+          .typeString("C/C++")
+          .pauseFor(1000)
+          .deleteAll()
+        typewriter
+          .typeString("OpenSource")
+          .pauseFor(1000)
+          .deleteAll()
+
+        typewriter
+          .typeString("MachineLearning")
+          .pauseFor(1000)
+          .deleteAll()
+
 
           .start();
       }}
