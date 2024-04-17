@@ -1,3 +1,5 @@
 # Quotes
 
-- stay motivated 
+- stay motivated
+- stay loyal
+- stay good
